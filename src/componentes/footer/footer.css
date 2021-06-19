@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.container2{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: #ceffca;
+	min-height:80px;
+	height: 100%;
+	min-width: 1500px;
+	width: 100%;
+}
+.container2 p{
+	margin: auto;
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+}
+.container2 i{
+	color:#D16BA5;
+
+}

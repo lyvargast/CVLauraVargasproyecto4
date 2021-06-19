@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.containers{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	min-height: 600px;
+	height: 100%;
+}
+
+.texto{
+	width: 70%;
+	padding: 50px;
+	text-align: justify;
+
+}
+.texto h2{
+	color: #ffd1ad;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-shadow: 2px 2px 3px black;
+	background-color: #c3ffec;
+	border-radius: 5px;
+	text-align: justify;
+}
+.texto span{
+	font-size: 30px;
+	color: white;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+
+}
+.texto p{
+	color: #ceffca;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.foto{
+	padding-left: 150px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.foto img{
+	width: 70%;
+	border-radius: 100%;
+	border: 5px solid #c3ffec;
+
+}
+
+.btn{
+font-family: 'Staatliches', cursive;
+background-image:linear-gradient(to bottom, #ee90c5, #fe9cb5, #ffacaa, #ffbfa7, #ffd1ad);
+letter-spacing: 2px;
+color: #000000;
+font-size: 20px;
+border-radius: 5px;
+}
+
+
+

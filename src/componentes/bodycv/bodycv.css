@@ -1,0 +1,221 @@
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: 'Staatliches', cursive;
+	min-height: 1000px;
+	height: 100%;
+}
+.contac{
+	border-right: 3px solid #eaeaea;
+	padding: 10px 30px;
+	width: 50%;
+	float: left;
+}
+.contacto h1{
+	color: #c3ffec;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.ocupacion{
+	color: #ffd1ad;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 20px;
+
+}
+
+.acercademi{
+	background-color: #ffd1ad;/*Curuba*/
+	padding: 10px;
+}
+.acercademi h2{
+	margin: 10px 0;
+	font-weight: 400px;
+	text-align: center;
+	color: black;
+}
+.acercademi p{
+	color: black;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.acercademi hr{
+	border-bottom: 2px solid black;
+	width: 100%;
+	margin: 5px auto;
+}
+.experiencialaboral{
+	background-color: #c3ffec;/*azul*/
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+.contactos{
+	display: flex;
+	flex-direction: row;
+	background-color: #c3ffec;/*azul*/
+	padding: 10px;
+	margin-top: 5px;
+
+}
+.contactos2{
+	display: flex;
+	flex-direction: row;
+	background-color: #ceffca;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+.datospersonales{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.cajacontactosleft{
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+}
+.cajacontactosleft h3{
+	text-align: center;
+
+}
+.cajacontactoscenter{
+	width: 30%;
+	float: center;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+}
+.cajacontactoscenter h3{
+	text-align: center;
+
+}
+.cajacontactosright{
+	width: 30%;
+	float: right;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+
+}
+.cajacontactosright h3{
+	text-align: center;
+
+}
+
+.info1{
+	color:#ceffca;
+	float: left;
+
+}
+.info2{
+	color:#ceffca;
+	float: right;
+
+}
+.datospersonales{
+	padding-bottom: 10px;
+	width: 100%;
+	margin-left: 200px;
+}
+
+.info1 i{
+	background-color: #ffd1ad;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+	color: #ffffff;
+	font-size: 16px;
+
+}
+.info2 i{
+	background-color: #ffd1ad;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.educacion{
+	background-color: #ceffca;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+.cajareferenciasleft{
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+}
+.cajareferenciasleft h3{
+	text-align: center;
+
+}
+.cajareferenciascenter{
+	width: 30%;
+	float: center;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+}
+.cajareferenciascenter h3{
+	text-align: center;
+
+}
+.cajareferenciasright{
+	width: 30%;
+	float: right;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+
+
+}
+.cajareferenciasright h3{
+	text-align: center;
+}
+.columnasdobles{
+	display: flex;
+	flex-direction: row;
+}
+.habilidades{
+	width: 50%;
+	padding-bottom: 10px;
+}
+.idiomas{
+	width: 50%;
+	list-style: none;
+	padding-bottom: 10px;
+
+}
+.idiomas h1{
+	color: #ffd1ad;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-shadow: 3px 3px 5px grey;
+	text-align: center;
+	
+}
+
+.idiomas p{
+	color: #c3ffec;
+	font-size: 20px;
+	
+	
+}
+

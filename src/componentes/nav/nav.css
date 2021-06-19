@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.cajagrande{
+	display: flex;
+	flex-direction: row;
+	background-color: #000000;
+	max-height: 300px;
+	min-width: 1500px;
+	width: 100%;
+
+}
+.logo{
+	padding-left: 30px;
+	width: 30%;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	padding-top: 60px;
+	flex-direction: row;
+	background-color: #000000;
+	font-family: 'Staatliches', cursive;
+	width: 60%;
+}
+a{
+cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC7UlEQVRYw+1XTWjUQBR+k2TbpixSqoiHHkQWKVJ6rKXgRRRERERERBRFPHiURUQQvHn0UEoviiAIXoo36yJFEEvpyaKt6EFpxb/+gPbQTW2Sed94cAJDmjTJbvfmg4G8zPe9+d6bycyEKKdJKcsA7gFYBsAA5gBcyMtvyoIgaAMwBUAltBstFwDgijHgMoAagFD7vpRyV6sFPI4ESCkr+t0tQ9TJRmNbOXEd0YPjOJ/143xSf6sEtMz+C9guAQeZudfzPKcosTAhxapCiKrrunUAs0Q0Q0RvlFIzQRB8cF1XtlpAZGUiGtKNhBDU3t6+DuC1UmrEtu3nccJ2TMEzIrpEREval0S0YfR3EtExIcQ4gNF6vZ49ZhAEXVLKnmhOAYxFm06EAXAWgGLmAe0Pa79fStkNYFFzvNjWfS21AszcA6DmOM6qZVnfXNddBjBMRN0JOr8S0YpS6qeROWzbnnUc5zcRfSGieWbeqZQ6SkSBxt1OrILv+w6AdykHjopXIG4ALgOYNPzpmP8gisHMfZsq4DjOEBH1a3eJiO4T0fu8C8GyrEeWZR0yXr3SLbLp6EEIsS8pg9NGpjeJiDzPswBcBfAnqwJZBuCcEf/MJgAz7zUAP5i5YvQNAVhtUkDVmIIjaaCHMRH7DRGDALwmBNSMI313IkhK2QlgwhCxyMwHDBEnGhmcmXv1NU4BmNoSHIZhJ4AX5g3IFNFg9mNGvPOZhDAMOwCMxypRyTFWUvaDRpw53/fzbf9BEMRFfGrk7mdOKTMfL0TWlXhpiJjIncG/7PsN7uTCwkLxs0dKuSO2Q+a+huv/iIh3qvDgRiYVAGvR4cLMPTkFfNScX77vtzUsQAerGtmMZuHDMOwy8E+bGlwH7NA/JQrAWhiG5YyqDRgC7qThci+KUqm0QURPtFu2bfvwVnghxB7D/Z6GK3QlU0rVhBDXtXsXwMUt4OY6Wd8WAQDe2rYduX265aKmdRT6Lkul0goR1YtwsuwvbKopmifSYVcAAAAASUVORK5CYII=),pointer;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+	font-size: 40px;
+	
+}
+.item a:hover{
+    background: linear-gradient(to bottom, #ee90c5, #fe9cb5, #ffacaa, #ffbfa7, #ffd1ad);
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+.redes{
+	display: flex;
+	flex-direction: row;
+	color:white;
+	width:10%;
+	padding:20px;
+  filter: invert(1) hue-rotate(20deg) saturate(1000%);
+
+}
+.redes img{
+	padding-top: 60px;
+	margin-right: 10px;
+}
+
+

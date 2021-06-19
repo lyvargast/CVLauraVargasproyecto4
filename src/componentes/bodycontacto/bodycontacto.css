@@ -1,0 +1,58 @@
+.wrapper {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c3ffec;
+  margin-right: 15px;
+
+
+}
+
+.typing-demo {
+  width: 30ch;
+  animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  background-color: #c3ffec;
+  color:black;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.formulario {
+    display: block;
+    margin-top: 0em;
+    width: 50%;
+}
+.form input {
+    height: 45px;
+    margin-bottom: 30px;
+  }
+.input-textarea {
+    background-color: #424242;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+    font-weight: 600;
+    padding: 15px;
+}
+.animacion{
+  width: 50%;
+}
